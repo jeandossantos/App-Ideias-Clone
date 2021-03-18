@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Border Radius</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">       
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-5 pb-5">Border Radius Previewer</h1>
+        <div class="d-flex flex-column mt-5 align-items-center justify-content-center">
+            <div class="app d-flex flex-column align-items-center justify-content-center">
+                <input type="number" value="0" min="0" class="input-1 form-control">
+                <input type="number" value="0" min="0" class="input-2 form-control">
+                <input type="number" value="0" min="0" class="input-3 form-control">
+                <input type="number" value="0" min="0" class="input-4 form-control">
+                <div class="border-radius"></div>
+            </div>
+            <br>
+            <input type="text" style="width: 500px;" readonly class="result form-control text-center">
+            <hr>
+            <button class="btn btn-info">Copiar CSS</button>
+        </div>
+
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>

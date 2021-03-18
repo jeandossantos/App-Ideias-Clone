@@ -31,8 +31,6 @@ bin.addEventListener('keyup', e => {
         result += (Math.pow(2, exponent)) * parseInt(v);
         ++exponent;
     });
-    //dec.value = result.join('');
 
     dec.value = (!dec.value.length === 0) ? result + parseInt(dec.value) : result;
-
 });
